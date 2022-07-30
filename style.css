@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Sans-Serif;
+  }
+
+.navbar {
+  width: 90%;
+  margin: 4% 5% 4% 5%;
+  text-align: center;
+  }
+  .navbar .logo-div {
+    display: inline-block;
+    width: 15%;
+    margin: 0;
+    text-align: left;
+    vertical-align: middle;
+  }
+  .navbar .grow-list {
+    display: inline-block;
+    min-width: 56%;
+    margin: 0;
+    text-align: left;
+    vertical-align: middle;
+  }
+  .list {
+    display: inline;
+    list-style-type: none;
+    text-align: center;
+  }
+  .list-item {
+    display: inline;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px 16px 0px 16px;
+    color: #a6a6a6;
+  }
+  .list-item:first-child{
+    display: inline;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px 16px 0px 16px;
+    color: #3a3a3a;
+  }
+  .navbar .button-group{
+    display: inline-block;
+    width: 24%;
+    margin: 0;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .nav-button {
+    background-color: #5955b3;
+    font-size: 16px;
+    border: 2px solid #5955b3;
+    border-radius: 12px;
+    margin: 0px 0px 0px 12px;
+    padding: 16px 28px 16px 28px;
+    color: #ffffff;
+  }
+
+  /* Banner Styles */
+  .banner-container{
+    margin-bottom: 48px;
+  }
+  .left-text{
+    display: inline-block;
+    width: 40%;
+    margin: 4% 0% 6% 6%;
+    text-align: left;
+    vertical-align: middle;
+  }
+  .heading-text{
+    font-weight: bold;
+    font-size: 80px;
+    color:#3c2f60;
+  }
+  .crush-text{
+    display: inline;
+    font-weight: bold;
+    font-size: 80px;
+    color:#5955b3;
+  }
+  .description{
+    font-size: 20px;
+    color:#a6a6a6;
+    margin: 32px 0px 56px 0px;
+  }
+  .btn{
+    margin: 0;
+  }
+  .right-img{
+    display: inline-block;
+    width: 53.6%;
+    margin: 0;
+    text-align: right;
+    vertical-align: middle;
+  }
